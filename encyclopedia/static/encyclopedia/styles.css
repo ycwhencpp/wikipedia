@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+
+
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
+input.title{
+    position: relative;
+    width:20%;
+    height:10%;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    margin-top: 5px;
+    display: block;
+}
+.content {
+    
+    width: 50%;
+    
+}
+.not-valid{
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+a.btn{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.Succesfull{
+    font-weight:bold;
+    color:green;
+    text-align: center;
+}

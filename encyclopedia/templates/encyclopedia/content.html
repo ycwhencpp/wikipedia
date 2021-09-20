@@ -1,0 +1,16 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+{{title}}
+{% endblock %}
+
+{% block body %}
+<h1>{{title}}</h1>
+{% if is_submitted %}
+<p class="Succesfull" >Updated post Succesfully</p>
+{% endif %}
+<hr>
+{{content|safe}}
+<hr>
+<a class="btn btn-primary" href="{% url 'edit' title%}">Edit content</a>
+{% endblock %}

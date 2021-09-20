@@ -1,0 +1,13 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+Not Found
+{% endblock %}
+
+{% block body %}
+<h1>Oops!! "{{title}}" doesn't exists</h1>
+<br>
+<p>The query you are trying to find doesn't exists or has been changed try searching with updated name.</p>
+<br>
+<a href="{% url 'index' %}">Go back home</a>
+{% endblock %}
