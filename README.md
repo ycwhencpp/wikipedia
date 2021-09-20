@@ -1,10 +1,10 @@
-#wikipedia
+***wikipedia***
 
 ---
 
  Wikipedia-like online encyclopedia
 
-***SCREENCAST:*** https://youtu.be/eZqhbRnmKuQ
+***SCREENCAST:*** ""
 
 **Python files:**
   * _manage.py_
