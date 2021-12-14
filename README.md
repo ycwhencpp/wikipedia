@@ -4,7 +4,7 @@
 
  Wikipedia-like online encyclopedia
 
-***SCREENCAST:*** ""
+***SCREENCAST:*** "https://www.youtube.com/watch?v=woLASMxQ-m0"
 
 **Python files:**
   * _manage.py_
